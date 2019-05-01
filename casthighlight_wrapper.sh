@@ -1,4 +1,5 @@
 #!/bin/sh
+# Version 1.0 info@keyvatech.com
 
 #Read the input parameters. Password captured without clear text
 
