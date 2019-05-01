@@ -3,6 +3,8 @@
 
 The CAST Highlight wrapper script allows you to assess an application source code, and optionally upload the analysis (not the source code) to the CAST Highlight portal for assessment. 
 
+This script allows users to not pass the portal password in clear text. It is an alternative to using the JAR command directly, where the portal password is passed in clear text.
+
 ## Script arguments 
 
 **sourceDir (mandatory)**  
@@ -49,3 +51,7 @@ The application snapshot label you want to display on the application result pag
 
 <!-- serverUrl is set by default to 'https://rpa.casthighlight.com' -->
 serverUrl (no input necessary) -  Default set to 'https://rpa.casthighlight.com'
+
+## Script location
+The casthighlight_wrapper.sh script needs to be located in the same directory as the Highlight-Automation-Command.jar file, and the file permissions should be set to execute (chmod 777 casthighlight_wrapper.sh)
+
