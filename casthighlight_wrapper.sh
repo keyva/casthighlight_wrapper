@@ -1,7 +1,7 @@
 #!/bin/sh
 # Version 1.0 info@keyvatech.com
 
-#Read the input parameters. Password captured without clear text
+# Read the input parameters. Password captured without clear text
 
 read -p "Enter workingDir: " workingdir
 read -p "Enter sourceDir: " sourcedir
